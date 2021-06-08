@@ -1,0 +1,22 @@
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.88;
+  text-align: center;
+  color: #2e2e2e;
+  &_fz16 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &_fz26 {
+    font-size: 26px;
+    line-height: 0.88;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &_color_white {
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+  .bigger {
+    &__wrapper {
+      grid-template: auto / repeat(4,216px);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .bigger {
+    &__wrapper {
+      grid-template: auto / repeat(2,250px);
+      grid-auto-columns: 250px;
+      column-gap: 27px;
+      justify-content: center;
+      row-gap: 27px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .bigger {
+    &__wrapper {
+      grid-template: auto / repeat(2,256px);
+      grid-auto-rows: auto;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .bigger {
+    &__wrapper {
+      grid-template: auto / 300px;
+      grid-auto-rows: 308px;
+    }
+  }
+}

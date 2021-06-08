@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  &__title {
+    color: $main-color;
+  }
+  &__img {
+     min-width: 60px;
+  }
+  &__text {
+    max-width: 431px;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: 1.57;
+    text-align: left;
+    color: #3a3a3a;
+  }
+  &_column {
+    flex-direction: column;
+    .item {
+      &__info, &__text {
+        text-align: center;
+      }
+    }
+  }
+}

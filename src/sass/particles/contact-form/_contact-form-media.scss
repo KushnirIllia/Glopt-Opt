@@ -1,0 +1,38 @@
+@media (max-width: 992px) {
+  .contact-form {
+    grid-template: 68px 350px / 720px;
+    &__body {
+      display: flex;
+      flex-direction: column;
+    }
+    &__input {
+      margin-bottom: 10px;
+    }
+    &__textarea {
+      width: 630px;
+      margin: 0 auto;
+    }
+    &__btn {
+      margin: 17px auto;
+    }
+  }
+}
+// 540px
+
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template: 68px 350px / 290px;
+    &__title {
+      font-size: 16px;
+    }
+    &__subtitle {
+      font-size: 13px;
+    }
+    &__textarea {
+      width: 270px;
+    }
+    &__input {
+      min-width: 230px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__info{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: end;
+    font-weight: 300;
+    line-height: 1.71;
+    font-size: 14px;
+
+    a {
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 19px;
+      line-height: 1.26;
+    }
+  }
+}

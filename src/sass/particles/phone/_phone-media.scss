@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+  .phone {
+    &__info {
+      font-size: 14px;
+      a {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .phone {
+    justify-content: flex-end;
+    &__info {
+      margin-right: 20px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .phone {
+
+    &__info {
+      display: none;
+    }
+  }
+}

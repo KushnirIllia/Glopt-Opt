@@ -1,0 +1,174 @@
+@media (max-width: 1200px) {
+  .promo {
+    &__title {
+      font-size: 62px;
+      line-height: 78px;
+    }
+
+    &__subtitle {
+      font-size: 36px;
+      line-height: 1.5;
+    }
+
+    &__divider {
+      margin: 30px auto 24px auto;
+    }
+
+    &__item {
+      grid-template: 63px 83px / 223px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .promo {
+    &__uptitle {
+      font-size: 22px;
+    }
+
+    &__title {
+      font-size: 46px;
+      line-height: 65px;
+    }
+
+    &__subtitle {
+      font-size: 26px;
+      line-height: 1.2;
+    }
+
+    &__divider {
+      width: 650px;
+
+      span {
+        width: 312px;
+      }
+    }
+
+    &__info {
+      grid-template: auto / repeat(4, 147px);
+      grid-auto-rows: auto;
+    }
+
+    &__item {
+      grid-template: 63px 149px / auto;
+    }
+
+    &__btn {
+      font-size: 13px;
+      line-height: 3.5;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .promo {
+    &__uptitle {
+      font-size: 19px;
+    }
+
+    &__title {
+      font-size: 32px;
+      line-height: 60px;
+    }
+
+    &__subtitle {
+      font-size: 19px;
+      line-height: 0.7;
+    }
+
+    &__divider {
+      width: 480px;
+
+      span {
+        width: 228px;
+
+        &:nth-child(2) {
+          width: 8px;
+          height: 8px;
+        }
+      }
+    }
+
+    &__info {
+      display: grid;
+      grid-template: repeat(2, 182px) / 218px;
+      align-content: center;
+      justify-content: center;
+      column-gap: 58px;
+      grid-auto-rows: 182px;
+    }
+
+    &__item {
+      grid-template: 82px 99px/217px;
+    }
+
+    &__btn {
+      font-size: 13px;
+      line-height: 3.5;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .promo {
+    padding: 100px 0 30px 0;
+
+    &__uptitle {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    &__title {
+      font-size: 30px;
+      line-height: 39px;
+      padding: 20px 0;
+    }
+
+    &__subtitle {
+      display: none;
+    }
+
+    &__divider {
+      width: 270px;
+      margin: 13px auto 13px auto;
+
+      span {
+        width: 126px;
+
+        &:nth-child(2) {
+          width: 6px;
+          height: 6px;
+        }
+      }
+    }
+
+    &__info {
+      margin-top: 25px;
+      display: grid;
+      grid-template: repeat(4,auto) / 287px;
+      align-content: center;
+      justify-content: center;
+      row-gap: 40px;
+      grid-auto-rows: auto;
+    }
+
+    &__item {
+      grid-template: 47px auto / auto;
+      row-gap: 14px;
+
+      &:last-child {
+        .promo__img {
+          img {
+            margin-left: -15px;
+          }
+        }
+      }
+    }
+
+    &__btn {
+      font-size: 13px;
+      line-height: 3.5;
+    }
+
+  }
+}

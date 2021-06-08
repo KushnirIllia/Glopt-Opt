@@ -1,0 +1,42 @@
+.item-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    max-width: 68px;
+    min-height: 102px;
+    position: relative;
+    margin: 0 auto;
+    @include circle-before;
+
+    img {
+      width: 80px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -54%);
+
+    }
+  }
+
+  &__title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 0.88;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0 0;
+  }
+
+  &__text {
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    font-size: 19px;
+    margin: 22px 0 0;
+    max-width: 985px;
+  }
+
+}

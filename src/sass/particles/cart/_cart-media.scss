@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  .cart {
+    &__title {
+      padding: 8% 0;
+      font-size: 15px;
+    }
+    &__price {
+      font-size: 13px;
+      span {
+        font-size: 26px;
+      }
+    }
+    &__text {
+      font-size: 13px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .cart {
+    grid-template: 45px 52px 42px 60px 52px/auto;
+    &__title {
+      padding: 5% 0;
+      font-size: 13px;
+    }
+    &__price {
+      font-size: 12px;
+      span {
+        font-size: 24px;
+      }
+    }
+    &__text {
+      font-size: 12px;
+      padding: 0 30px;
+    }
+    &__btn {
+      line-height: 3.2;
+      height: 40px;
+      width: 150px;
+    }
+  }
+}
